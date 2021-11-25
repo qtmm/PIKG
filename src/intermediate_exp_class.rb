@@ -765,6 +765,10 @@ class Pragma
     []
   end
 
+  def fusion_iotag(iotag)
+    []
+  end
+
   def convert_to_code(conversion_type="reference")
     ret = String.new
     if conversion_type != "reference"
